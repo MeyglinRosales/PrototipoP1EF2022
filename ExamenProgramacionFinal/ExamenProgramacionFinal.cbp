@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +34,27 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Bitacora.h" />
+		<Unit filename="include/Concepto.h" />
+		<Unit filename="include/Equipo.h" />
+		<Unit filename="include/Jugador.h" />
+		<Unit filename="include/Pais.h" />
+		<Unit filename="include/Persona.h" />
+		<Unit filename="include/Poliza.h" />
+		<Unit filename="include/Puesto.h" />
+		<Unit filename="include/Usuarios.h" />
+		<Unit filename="include/menus.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Bitacora.cpp" />
+		<Unit filename="src/Concepto.cpp" />
+		<Unit filename="src/Equipo.cpp" />
+		<Unit filename="src/Jugador.cpp" />
+		<Unit filename="src/Pais.cpp" />
+		<Unit filename="src/Persona.cpp" />
+		<Unit filename="src/Poliza.cpp" />
+		<Unit filename="src/Puesto.cpp" />
+		<Unit filename="src/Usuarios.cpp" />
+		<Unit filename="src/menus.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
