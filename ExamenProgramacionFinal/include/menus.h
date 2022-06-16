@@ -7,7 +7,12 @@ class menus
     public:
         menus();
         virtual ~menus();
-
+        menuGeneral();
+        menuConsultas();
+        menuContabilidad();
+        menuEntrenador();
+        menuSeguridad();
+        int opcion;
     protected:
 
     private:
